@@ -1,0 +1,393 @@
+﻿[
+  {
+    "_id": {
+      "$oid": "5c7a8dd5e1993800016e743b"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": "4924.632886671103",
+    "NoCollections": "100",
+    "TotalDistance": "77998.82363053733",
+    "TotalTime": "3.83694444444444",
+    "TotalTimeArea": "2.33472222222222",
+    "NoCollectionsArea": "100",
+    "TotalDistanceArea": "8584.105771936427",
+    "NoUnidentifiedCollections": "0",
+    "UnixTimestampUtc": {
+      "$numberLong": "1551484800"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c7bdf34e1993800016e82e5"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": "4594.691914265666",
+    "NoCollections": "100",
+    "TotalDistance": "77798.4289082449",
+    "TotalTime": "3.3475",
+    "TotalTimeArea": "2.1875",
+    "NoCollectionsArea": "100",
+    "TotalDistanceArea": "8452.404754877067",
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1551571200"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c7d30b5e1993800016e915a"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 4936.331538296639,
+    "NoCollections": 112,
+    "TotalDistance": 77357.49762994928,
+    "TotalTime": 3.26055555555556,
+    "TotalTimeArea": 2.09333333333333,
+    "NoCollectionsArea": 112,
+    "TotalDistanceArea": 8511.502982261,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1551657600"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c7e4b42e1993800016ea497"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 4334.174722171478,
+    "NoCollections": 95,
+    "TotalDistance": 93647.4175947791,
+    "TotalTime": 3.89638888888889,
+    "TotalTimeArea": 2.36722222222222,
+    "NoCollectionsArea": 95,
+    "TotalDistanceArea": 11308.947003141144,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1551391200"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c7e8aa8e1993800016ebc2c"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 4502.753555781479,
+    "NoCollections": 131,
+    "TotalDistance": 145915.78755929452,
+    "TotalTime": 5.94111111111111,
+    "TotalTimeArea": 4.65527777777778,
+    "NoCollectionsArea": 131,
+    "TotalDistanceArea": 9992.001915869252,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1551744000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c813be7e1993800016ecc67"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 5177.417439509219,
+    "NoCollections": 112,
+    "TotalDistance": 81415.67538381746,
+    "TotalTime": 4.56194444444444,
+    "TotalTimeArea": 2.65861111111111,
+    "NoCollectionsArea": 112,
+    "TotalDistanceArea": 8871.823381823766,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1551916800"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c818cdfe1993800016edd00"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 5612.882813111745,
+    "NoCollections": 114,
+    "TotalDistance": 78338.60118168811,
+    "TotalTime": 4.19666666666667,
+    "TotalTimeArea": 2.88222222222222,
+    "NoCollectionsArea": 114,
+    "TotalDistanceArea": 8900.867611135624,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1551823200"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c8276b6e1993800016eebbd"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 4445.540149129025,
+    "NoCollections": 89,
+    "TotalDistance": 80806.16887349274,
+    "TotalTime": 7.47944444444444,
+    "TotalTimeArea": 2.46388888888889,
+    "NoCollectionsArea": 82,
+    "TotalDistanceArea": 8300.81839372718,
+    "NoUnidentifiedCollections": 7,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552003200"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c83c83be1993800016efc55"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 4846.965539320383,
+    "NoCollections": 115,
+    "TotalDistance": 78469.5154744502,
+    "TotalTime": 4.02666666666667,
+    "TotalTimeArea": 2.73916666666667,
+    "NoCollectionsArea": 115,
+    "TotalDistanceArea": 9311.50519544749,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552089600"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c8519ade1993800016f0d11"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 5750.061443951186,
+    "NoCollections": 104,
+    "TotalDistance": 77688.0425083971,
+    "TotalTime": 4.21472222222222,
+    "TotalTimeArea": 2.99972222222222,
+    "NoCollectionsArea": 104,
+    "TotalDistanceArea": 8844.992628206537,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552176000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c866b22e1993800016f2041"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 5926.718263322266,
+    "NoCollections": 116,
+    "TotalDistance": 82917.03110094843,
+    "TotalTime": 4.50611111111111,
+    "TotalTimeArea": 4.39944444444444,
+    "NoCollectionsArea": 116,
+    "TotalDistanceArea": 10138.297700086925,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552262400"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c87bcc4e1993800016f342e"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 5507.727948925933,
+    "NoCollections": 96,
+    "TotalDistance": 149102.91966199857,
+    "TotalTime": 5.63388888888889,
+    "TotalTimeArea": 4.11194444444444,
+    "NoCollectionsArea": 96,
+    "TotalDistanceArea": 10896.919127571,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552348800"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c890e7de1993800016f45a2"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 3937.14957580143,
+    "NoCollections": 98,
+    "TotalDistance": 93925.32629984345,
+    "TotalTime": 6.86388888888889,
+    "TotalTimeArea": 2.63638888888889,
+    "NoCollectionsArea": 98,
+    "TotalDistanceArea": 8408.936970364468,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552435200"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c8a0e9ee1993800016f7247"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 4342.800517836669,
+    "NoCollections": 98,
+    "TotalDistance": 157380.72479521343,
+    "TotalTime": 5.20777777777778,
+    "TotalTimeArea": 2.23666666666667,
+    "NoCollectionsArea": 98,
+    "TotalDistanceArea": 13091.889785208106,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1550181600"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c8a5fa9e1993800016f81de"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 5183.553548957823,
+    "NoCollections": 100,
+    "TotalDistance": 81472.37430327764,
+    "TotalTime": 4.22944444444444,
+    "TotalTimeArea": 2.51416666666667,
+    "NoCollectionsArea": 100,
+    "TotalDistanceArea": 8837.528474625118,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552521600"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c8bb146e1993800016f90fa"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 4546.782137560707,
+    "NoCollections": 95,
+    "TotalDistance": 77228.279403405,
+    "TotalTime": 3.52,
+    "TotalTimeArea": 2.33527777777778,
+    "NoCollectionsArea": 95,
+    "TotalDistanceArea": 8798.319930181475,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552608000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c8d02a1e1993800016fa0e8"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 5074.061675152265,
+    "NoCollections": 97,
+    "TotalDistance": 77667.92279464558,
+    "TotalTime": 3.86861111111111,
+    "TotalTimeArea": 2.6625,
+    "NoCollectionsArea": 97,
+    "TotalDistanceArea": 8834.63688771561,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552694400"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c8f5c6de1993800016faf15"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 6052.914769071851,
+    "NoCollections": 94,
+    "TotalDistance": 49623.75096924152,
+    "TotalTime": 3.29555555555556,
+    "TotalTimeArea": 2.33694444444444,
+    "NoCollectionsArea": 94,
+    "TotalDistanceArea": 8519.839426988152,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552867200"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c8f5f98e1993800016fbef8"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 5568.645696093472,
+    "NoCollections": 96,
+    "TotalDistance": 77909.93726581163,
+    "TotalTime": 4.14527777777778,
+    "TotalTimeArea": 2.90472222222222,
+    "NoCollectionsArea": 96,
+    "TotalDistanceArea": 8872.715612695978,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552773600"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c8fa59de1993800016fce0a"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 6052.914769071851,
+    "NoCollections": 94,
+    "TotalDistance": 77397.10676308932,
+    "TotalTime": 3.69583333333333,
+    "TotalTimeArea": 2.33694444444444,
+    "NoCollectionsArea": 94,
+    "TotalDistanceArea": 8519.839426988152,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552867200"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c90f720e1993800016fdcf4"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 5370.60048784943,
+    "NoCollections": 104,
+    "TotalDistance": 77683.27320784694,
+    "TotalTime": 3.31388888888889,
+    "TotalTimeArea": 2.09194444444444,
+    "NoCollectionsArea": 104,
+    "TotalDistanceArea": 8791.755736902664,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1552953600"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c924899e1993800016fef37"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 5333.366788342517,
+    "NoCollections": 113,
+    "TotalDistance": 87588.98972847483,
+    "TotalTime": 4.45666666666667,
+    "TotalTimeArea": 2.68527777777778,
+    "NoCollectionsArea": 113,
+    "TotalDistanceArea": 9304.349352972677,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1553040000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c939a0fe1993800016ffe97"
+    },
+    "StationId": "11346_11702",
+    "MaxWeightAxis": 4251.925742226145,
+    "NoCollections": 87,
+    "TotalDistance": 82608.7938874344,
+    "TotalTime": 4.03916666666667,
+    "TotalTimeArea": 2.32916666666667,
+    "NoCollectionsArea": 87,
+    "TotalDistanceArea": 8613.652931158653,
+    "NoUnidentifiedCollections": 0,
+    "UnixTimestampUtc": {
+      "$numberLong": "1553126400"
+    }
+  }
+]
