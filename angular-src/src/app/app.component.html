@@ -1,1 +1,5 @@
 <app-cover></app-cover>
+<div *ngFor="let truck of trucksInformation">
+    <app-truckdata [truckData]="truck"></app-truckdata>
+</div>
+
