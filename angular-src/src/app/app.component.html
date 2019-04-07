@@ -1,5 +1,4 @@
 <app-cover></app-cover>
-<div *ngFor="let truck of trucksInformation">
-    <app-truckdata [truckData]="truck"></app-truckdata>
+<div class="charts-container">
+    <app-truckdata *ngFor="let truck of trucksInformation" [initialTruck] = "truck"></app-truckdata>
 </div>
-
