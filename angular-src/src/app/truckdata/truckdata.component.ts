@@ -9,14 +9,14 @@ import * as d3 from 'd3';
 export class TruckdataComponent implements OnInit, AfterContentInit {
 
   @Input() initialTruck;
-
   truck = [];
+  public animate = false;
 
   constructor(private elRef: ElementRef) { }
 
   ngOnInit() {
-    for(let key in this.initialTruck){
-      if(typeof this.initialTruck[key] === 'object' || key === 'StationId') {
+    for (let key in this.initialTruck) {
+      if (typeof this.initialTruck[key] === 'object' || key === 'StationId') {
         continue;
       } else {
         let propObj = {
@@ -40,17 +40,13 @@ export class TruckdataComponent implements OnInit, AfterContentInit {
       .attr("height", height + margin.top + margin.bottom)
       .append("g")
       .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
+        "translate(" + margin.left + "," + margin.top + ")")
 
     let x = d3.scaleLinear()
       .domain([0, 1000])
       .range([0, width]);
     svg.append('g')
-      .attr('transform', `translate(0, ${height})`)
-      .call(d3.axisBottom(x))
-      .selectAll("text")
-      .attr("transform", "translate(-10,0)rotate(-45)")
-      .style("text-anchor", "end");
+      .attr('transform', `translate(0, ${height})`);
 
     let y = d3.scaleBand()
       .range([0, height])
@@ -66,19 +62,37 @@ export class TruckdataComponent implements OnInit, AfterContentInit {
       .attr('x', x(0))
       .attr('y', function (d) { return y(d.propname) })
       .attr("width", function (d) {
-        if(d.value < 10) {
-          d.value *= 100;
-        } else if (d.value >= 10 && d.value < 100) {
-          d.value *= 10;
-        } else if(d.value >= 1000 && d.value < 10000) {
-          d.value /= 10;
-        } else if(d.value >= 10000) {
-          d.value /= 100;
+        switch (d.propname) {
+          case ("TotalTimeArea"):
+            return d.value * 10;
+          case ("NoUnidentifiedCollections"):
+            return d.value * 10;
+          case ("TotalTime"):
+            return d.value * 10;
+          case ("NoCollections"):
+            return d.value;
+          case ("NoCollectionsArea"):
+            return d.value;
+          case ("MaxWeightAxis"):
+            return d.value / 100;
+          case ("TotalDistanceArea"):
+            return d.value / 100;
+          case ("TotalDistance"):
+            return d.value / 1000;
         }
-        return x(d.value);
       })
       .attr("height", y.bandwidth())
-      .attr("fill", "#3950ad")
+      .attr("fill", "#3950ad");
+
+    let texts = svg.selectAll("mytexts")
+      .data(this.truck)
+      .enter()
+      .append("text");
+
+    texts.attr('x', x(0) + 10)
+      .attr('y', function (d) { return y(d.propname) + 20 })
+      .attr("text-anchor", "start")
+      .text(d => (d.value).toFixed(2));
   }
 
 }

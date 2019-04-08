@@ -1,6 +1,6 @@
-<div class="truckdata-container">
-    <h3>Truck ID is: {{initialTruck._id.$oid}}</h3>
-    <h3>StationId is: {{initialTruck.StationId}}</h3>
-    <h3>UnixTimestampUtc is: {{initialTruck.UnixTimestampUtc.$numberLong}}</h3>
-    <div class="truck-info" id="chart"></div>
+<div class="truckdata">
+    <h3 class="truckdata__text">Truck Id: {{initialTruck._id.$oid}}</h3>
+    <h3 class="truckdata__text">Station Id: {{initialTruck.StationId}}</h3>
+    <h3 class="truckdata__text">Unix Timestamp Utc: {{initialTruck.UnixTimestampUtc.$numberLong}}</h3>
+    <div id="chart"></div>
 </div>

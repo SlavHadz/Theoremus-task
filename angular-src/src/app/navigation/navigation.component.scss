@@ -1,11 +1,23 @@
 .navbar {
-    background-color: rgba($color: #000000, $alpha: 1.0);
+    background-color: rgba($color: #333333, $alpha: 1.0);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 70px;
+    height: 60px;
     z-index: 100;
+
+    &__name {
+        display: inline-block;
+        text-transform: uppercase;
+        color: #bbbbbb;
+        margin-left: 10px;
+        cursor: pointer;
+
+        &:hover {
+            color: #999999;
+        }
+    }
 
     &__list {
         list-style-type: none;

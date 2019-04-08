@@ -6,3 +6,9 @@
     padding: 50px;
     padding-top: 100px;
 }
+
+@media (max-width: 600px) {
+    .charts-container {
+        padding: 5px;
+    }
+}

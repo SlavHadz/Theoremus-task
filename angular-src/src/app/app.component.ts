@@ -20,7 +20,6 @@ export class AppComponent implements OnInit {
   ngOnInit(){
     this.getTrucks().subscribe((response) => {
       this.trucksInformation = JSON.parse(response.trucks);
-      console.log(this.trucksInformation);
     },
     error => {
       console.error(error);
