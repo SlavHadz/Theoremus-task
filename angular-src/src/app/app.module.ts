@@ -6,12 +6,14 @@ import { CoverComponent } from './cover/cover.component';
 import { TruckdataComponent } from './truckdata/truckdata.component';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoverComponent,
-    TruckdataComponent
+    TruckdataComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
