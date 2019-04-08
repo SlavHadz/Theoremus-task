@@ -27,30 +27,9 @@
     }
 }
 
-.animated {
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-}
-
 @media (max-width: 800px) {
     .truckdata {
         width: 80%;
     }
 }
 
-@keyframes moveInLeft {
-    0% {
-        opacity: 0;
-        transform: translate(-30%, 0);
-    }
-
-    70% {
-        opacity: .7;
-        transform: translate(10%, 0);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(0, 0);
-    }
-}

@@ -10,7 +10,6 @@ export class TruckdataComponent implements OnInit, AfterContentInit {
 
   @Input() initialTruck;
   truck = [];
-  public animate = false;
 
   constructor(private elRef: ElementRef) { }
 
